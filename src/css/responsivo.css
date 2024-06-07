@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+    .logo img {
+        width: 180px;
+    }
+
+    .info h2{
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        display: block;
+    }
+
+    .logo img {
+        width: 180px;
+    }
+
+    .hero {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .hero img {
+        width: 300px;
+    }
+
+    .info h2{
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .social{ margin-right: 0;
+        justify-content: center;
+    }    
+}
