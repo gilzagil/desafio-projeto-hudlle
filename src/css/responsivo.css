@@ -13,28 +13,44 @@
     body {
         background-image: url(../images/bg-mobile.svg);
         display: block;
+        height: 70vh;
+        background-size: cover;
     }
 
     .logo img {
         width: 180px;
+        padding: 10px;
     }
 
     .hero {
         display: block;
-        margin-left: 0;
         text-align: center;
     }
 
     .hero img {
-        width: 300px;
+        width: 280px;
+        padding: 0;
+        
+    }
+
+    .info{
+        padding: 0px 20px;
     }
 
     .info h2{
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 500;
+        margin: 0;
     }
 
     .social{ margin-right: 0;
+        margin-top: 10px;
         justify-content: center;
-    }    
+    }  
+    
+    .social i {
+        font-size: 20px;
+        transition: 0.8s;
+        padding: 20px;
+    }
 }
